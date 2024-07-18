@@ -1,3 +1,5 @@
+package ca.ucalgary.ensf380;
+
 import java.util.*;
 public class University {
     
@@ -25,10 +27,16 @@ public class University {
                 
         }
        
+        
         System.out.println("Professor "+ professor.getName() +" supervises "+ elegibleStudents.size()+ " students :");
         for (Student student:elegibleStudents) {
             System.out.println(student.getName());
                 
         }
+        
+        
+      
+        
+       
     }
 }

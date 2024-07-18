@@ -1,3 +1,5 @@
+package ca.ucalgary.ensf380;
+
 public class Person {
 
     protected String name;
